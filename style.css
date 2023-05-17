@@ -14,7 +14,7 @@ body{
     height: calc(8*100px);
     display: flex;
    flex-wrap: wrap;
-   background: url('/bg.jpg');
+   background: url('https://github.com/Magesh-sam/background-hover/blob/master/bg.jpg');
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
