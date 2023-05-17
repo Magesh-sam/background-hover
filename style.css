@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    width: calc(8*100px);
+    height: calc(8*100px);
+    display: flex;
+   flex-wrap: wrap;
+   background: url('/bg.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.wrapper div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+}
+.black *:nth-child(odd){
+    background: rgba(0, 0, 0,0.5);
+}
+    
+.white *:nth-child(even){
+    background: rgba(0, 0, 0,0.5);
+}
+
+.black div:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.white div:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
